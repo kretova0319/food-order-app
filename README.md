@@ -1,16 +1,21 @@
-# React + Vite
+Food Order App is a web application for ordering food built with React and Vite. The project includes the basic setup for running the interface, uses Redux Toolkit for state management, and is based on a modern lightweight tech stack.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Food Order App — это веб-приложение для заказа еды, построенное с помощью React и Vite. Проект включает основные настройки для запуска интерфейса, использует Redux Toolkit для управления состоянием и лёгкий современный стек.
 
-Currently, two official plugins are available:
+ Description / Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a frontend application for a food ordering system. Users can browse menu items, add selected dishes to the cart, and place an order (currently, the project represents a basic interface setup).
+The project is built using the React + Vite template and utilizes Redux Toolkit for state management.
 
-## React Compiler
+Это фронтенд-приложение для системы заказа еды. Пользователь может просматривать пункты меню, добавлять выбранные блюда в корзину и оформлять заказ (в текущем состоянии — базовая настройка интерфейса).
+Проект построен на основе шаблона React + Vite и использует Redux Toolkit для управления состоянием.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Technologies / Технологии:
 
-## Expanding the ESLint configuration
+React — UI library
+Vite — development and build tool
+Redux Toolkit + React-Redux — state management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React — UI-библиотека
+Vite — инструмент для разработки и сборки
+Redux Toolkit + React-Redux — state-менеджмент
