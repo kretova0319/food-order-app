@@ -1,0 +1,19 @@
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 14px;
+  border-radius: 16px;
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.categoryButtonSelected {
+  background-color: rgb(129, 184, 129);
+}
+
+.categoryButton:hover {
+  background-color: #f7eb95;
+}

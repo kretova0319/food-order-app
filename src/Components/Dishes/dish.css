@@ -1,0 +1,16 @@
+.carddish {
+  margin: 40px 0;
+  text-align: center;
+}
+.addtocart {
+  background-color: #f7eb95;
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #f1ef5a, #6f9b6b);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

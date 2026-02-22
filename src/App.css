@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(26, 17, 5);
+  color: black;
+  min-height: 100vh;
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 700px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+.containerleft {
+  position: sticky;
+  top: 0; /* прилипает к верху */
+  height: 100vh; /* занимает всю высоту экрана */
+  overflow-y: auto; /* если контент длиннее — скролл внутри */
+}
+h1 {
+  margin: 30px 0;
+  font-size: 40px;
+}
