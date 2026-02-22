@@ -1,27 +1,42 @@
-Food Order App is a web application for ordering food built with React and Vite. The project includes the basic setup for running the interface, uses Redux Toolkit for state management, and is based on a modern lightweight tech stack.
+# 🍔 Food Order App
 
-Food Order App — это веб-приложение для заказа еды, построенное с помощью React и Vite. Проект включает основные настройки для запуска интерфейса, использует Redux Toolkit для управления состоянием и лёгкий современный стек.
+🌍 **Live Demo:**  
+👉 https://kretova0319.github.io/food-order-app
 
-🧩 Features
+---
 
-This is a frontend application for a food ordering system. Users can browse menu items, add selected dishes to the cart, and place an order (currently, the project represents a basic interface setup).
-The project is built using the React + Vite template and utilizes Redux Toolkit for state management.
+## 📌 About the Project
 
-Это фронтенд-приложение для системы заказа еды. Пользователь может просматривать пункты меню, добавлять выбранные блюда в корзину и оформлять заказ (в текущем состоянии — базовая настройка интерфейса).
-Проект построен на основе шаблона React + Vite и использует Redux Toolkit для управления состоянием.
+**Food Order App** is a web application for ordering food built with React and Vite.  
+The project demonstrates modern frontend development practices using Redux Toolkit for state management and a lightweight tech stack.
 
- 🛠️ Tech Stack
+**Food Order App** — это веб-приложение для заказа еды, построенное с помощью React и Vite.  
+Проект демонстрирует современные подходы к разработке frontend-приложений с использованием Redux Toolkit для управления состоянием.
 
-React — UI library
-Vite — development and build tool
-Redux Toolkit + React-Redux — state management
+---
 
-React — UI-библиотека
-Vite — инструмент для разработки и сборки
-Redux Toolkit + React-Redux — state-менеджмент
+## 🧩 Features
 
-🚀 How to Run Locally
+- Browse food menu items  
+- View product images and prices  
+- Add and remove items from the cart  
+- Automatically calculate total price  
+- Category-based filtering  
 
+---
+
+## 🛠️ Tech Stack
+
+- **React** — UI library  
+- **Vite** — development & build tool  
+- **Redux Toolkit** — state management  
+- **React-Redux** — integration with React  
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
 git clone https://github.com/kretova0319/food-order-app.git
 cd food-order-app
 npm install
